@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+    background-color: #24252A;
+
+}
+
+/* NAVBAR */
+
+li , a, button{
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+}
+
+/* places the nva links in the centre */
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px
+}
+/* removes the bullet points */
+
+.nav-links{
+    list-style: none;
+}
+
+/* this makes the links be side by side  */
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links, li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links, li, a:hover{
+    color: #0088a9;
+}
+
+/* Targetting the button and using an rgba to drop the opacity*/
+
+button{
+    padding: 10px 29px;
+    background-color: rgba(0,136,168,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,168,0.8);
+
+}
