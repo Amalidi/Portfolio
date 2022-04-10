@@ -7,15 +7,16 @@
 
 }
 
-/* NAVBAR */
+     /* NAVBAR */
 
 li , a, button{
-    font-weight: 500;
+    font-weight: 900;
     font-size: 18px;
     color: #edf0f1;
+    text-decoration: none;
 }
 
-/* places the nva links in the centre */
+/* places the nav links in the centre */
 
 nav{
     display:flex;
@@ -59,3 +60,34 @@ button:hover{
     background-color: rgba(0,136,168,0.8);
 
 }
+
+     /* Home Section */
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading2{
+    font-size: 75px;
+    margin: 20px 0px 20px;
+    color: white;
+}
+
+.heading3{
+    font-size: 20px;
+    margin: 20px ;
+    color:#0088a9;
+}
+
+.heading1{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+
+                                                   
