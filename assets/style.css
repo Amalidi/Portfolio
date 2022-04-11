@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans' , sans-serif;
     background-color: #24252A;
-
+    
 }
 
      /* NAVBAR */
@@ -23,6 +23,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 30px 10px
+
 }
 /* removes the bullet points */
 
@@ -64,12 +65,25 @@ button:hover{
      /* Home Section */
 
 #Home{
+    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 590px;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    
 }
+
+/* #Home{
+    height: 108vh;
+    width: 100%;
+    background-color: #24252A;
+    background-image: url(./images/black-background.png);
+    background-size: cover;
+    background-position: center;
+    opacity
+} */
 
 .heading2{
     font-size: 75px;
@@ -89,5 +103,36 @@ button:hover{
     font-size: 30px;
 }
 
+#About{
+    width: 100%;
+    padding: 100px 0px;
+    /* background-color: #191919; */
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.main img{
+    height: 500px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+.main{
+    
+}
+
+.text{
+    width: 550px;
+}
+
 
                                                    
+
+
+@media (max-width:800px){
+    .hero{
+        background-color:#24252A;
+        padding: 10px;
+    }
+}
