@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans' , sans-serif;
-    background-color: #24252A;
+    /* background-color: #24252A; */
+    
     
 }
 
@@ -19,6 +20,7 @@ li , a, button{
 /* places the nav links in the centre */
 
 nav{
+    background-color: #161a1d;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +67,12 @@ button:hover{
      /* Home Section */
 
 #Home{
+    background-color: #161a1d;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 590px;
+    height: 670px;
     justify-content: center;
     align-items: center; 
     
@@ -106,10 +109,12 @@ button:hover{
       /* About section */
 
 #About{
+    background-color: #24252A;
     width: 100%;
+    padding: 100px 0px;
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 670px;
 }
 
 #About h1{
@@ -120,7 +125,8 @@ button:hover{
     height: 500px;
     width: 600px;
     opacity: 0.9;
-    padding: 0px 30px;
+    padding: 0px 50px;
+    align-items:center
 }
 
 .main{
@@ -138,7 +144,7 @@ button:hover{
     width: 550px;
     height: 1000;
     color: #edf0f1;
-    font-size: 75px;
+    font-size: 40px;
     text-transform: capitalize;
     margin: 55px;
     text-align: center;
@@ -149,10 +155,13 @@ button:hover{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 45px;
 
 }
+
+/* Projects section */
+
 
 
                                                    
