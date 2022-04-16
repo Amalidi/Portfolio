@@ -176,6 +176,10 @@ button:hover{
     padding: 40px 0px;
 }
 
+#Projects::before{
+    background-color: #24252A;
+}
+
 .title{
     margin: 50px 70px;
     width: 600px;
@@ -197,6 +201,10 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container{
+    background-color: #24252A;
 }
 
 .box-1{
@@ -271,11 +279,49 @@ button:hover{
                                                    
 
 
-@media screen and (max-width: 596px){
-    .nav-links{
-        flex-direction: column;
-        align-items: center;
-        background-color:#24252A;
-        /* padding: 10px; */
+    @media screen and (max-width: 596px) {
+        .hero, .nav-links, .nav-container {
+          padding: 30px 30px 30px;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .heading1, .heading2, .heading3{
+        text-align: center;
+        }
+        .title .sub-title{
+            text-align: center;
+        }
+
+        .work-box{
+            width: 440px;
+            height: 440px;
+        }
+
+        .work-box img{
+            width: 440px;
+            height: 440px;
+        }
+
+        .text h1{
+            padding: 30px;
+            align-items:flex-start;
+            text-align: center;
+        }
+
+        .text p{
+            font-size: 14px;
+            margin-bottom: 900px;
+            
+        }
+
+        .main{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main img{
+            width: 475px;
+            height: 300px;
+        }
     }
-}
