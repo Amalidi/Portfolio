@@ -108,7 +108,7 @@ button:hover{
 #About{
     background-color: #24252A;
     width: 100%;
-    padding: 100px 0px 890px;
+    padding: 100px 0px 390px;
     display: flex;
     flex-direction: column;
 }
