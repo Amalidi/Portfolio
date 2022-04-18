@@ -1,31 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Poppins:ital,wght@0,400;1,100;1,800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Poppins:ital,wght@0,400;1,100;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e1eea166b2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
-</head>
-<body>
-    <!-- the navbar seaction -->
+  </head>
+
+  <body>
+    <!------------------- the navbar seaction ------------------>
     <header>
+      <nav class="nav-container">
         <div class="hero">
-            <nav>
-                <!-- <h2 class="logo">AI</h2> -->
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <a class="contact" href="#"><button>Contact</button></a>
-                </ul>
-            </nav>
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <a class="contact" href="#Contact"><button>Contact</button></a>
+          </ul>
         </div>
+      </nav>
     </header>
 
-    
-</body>
+    <!------------------ Home Section ------------------->
+
+    <main>
+      <section id="Home">
+        <h4 class="heading1">HI THERE 👋, I'M</h4>
+        <h1 class="heading2">Amal Idiris</h1>
+        <h3 class="heading3">Full Stack Web Developer</h3>
+      </section>
+
+      <!----------------- About Section ------------------>
+
+      <section id="About">
+        <div class="main">
+          <img src="./assets/images/coder.png" alt="coder" />
+          <div class="text">
+            <h1>ABOUT ME</h1>
+            <p>
+              Hello! My name is Amal Idiris, and I’m a UK based web developer
+              who focuses on writing clean, elegant and efficient code. I'm
+              passionate about bringing both the technical and visual aspects of
+              digital products to life. I enjoy creating interactive digital
+              experiences on the web with code. My ever-growing fascination for
+              programming started from a young age and has now developed into a
+              serious interest. I have a diverse set of skills ranging from
+              developing a simple single static page of plain text by using
+              HTML, all the way to creating complex web applications through
+              using CSS and javascript.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-------------- Projects section --------------->
+
+      <section id="Projects">
+        <h2 class="title">My Projects</h2>
+        <p class="sub-title">Here Are Some Things I’ve Built Recently</p>
+
+        <div class="container">
+          <div class="work-box">
+            <div class="work-image">
+              <a
+                href="https://amalidi.github.io/Marketing-agency-refactor/"
+                target="_blank"
+              >
+                <img src="./assets/images/Horiseon.png" alt="Horiseon" />
+              </a>
+            </div>
+
+            <div class="item-data">
+              <h4>THE HORISEON PROJECT</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-container">
+          <div class="box-1">
+            <div class="project-image">
+              <img
+                src="./assets/images/password-generator.webp"
+                alt="password-generator"
+              />
+            </div>
+
+            <div class="item-data">
+              <h4>PASSWORD GENERATOR</h4>
+            </div>
+          </div>
+
+          <div class="box-1">
+            <div class="project-image">
+              <img src="./assets/images/quiz.png" alt="code quiz" />
+            </div>
+
+            <div class="item-data">
+              <h4>CODE QUIZE</h4>
+            </div>
+          </div>
+
+          <div class="box-1">
+            <div class="project-image">
+              <img src="./assets/images/planner.jpeg" alt="day planner" />
+            </div>
+
+            <div class="item-data">
+              <h4>DAY PLANNER</h4>
+            </div>
+          </div>
+
+          <div class="box-1">
+            <div class="project-image">
+              <img src="./assets/images/weather.jpeg" alt="weather dashboard" />
+            </div>
+
+            <div class="item-data">
+              <h4>WEATHER DASHBOARD</h4>
+            </div>
+          </div>
+
+          <div class="box-1">
+            <div class="project-image">
+              <img
+                src="./assets/images/personal portfolio.webp"
+                alt="personal profile"
+              />
+            </div>
+
+            <div class="item-data">
+              <h4>PERSONAL PORTFOLIO</h4>
+            </div>
+          </div>
+
+          <div class="box-1">
+            <div class="project-image">
+              <img src="./assets/images/coder.jpeg" alt="PROJECT 1" />
+            </div>
+
+            <div class="item-data">
+              <h4>PROJECT 1</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------- Contact Me section -------------------->
+      <section id="Contact">
+        <h2 class="H2">Get <span class="H">In</span> Touch</h2>
+
+        <div class="row">
+          <div class="info-container">
+            <div class="box4">
+              <a
+                href="https://cdn.britannica.com/98/64798-050-D9201EB6/Birmingham-England.jpg"
+                target="_blank"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></a>
+              <div>
+                <p>Birmingham, uk</p>
+              </div>
+            </div>
+
+            <div class="box5">
+              <a href="https://github.com/Amalidi" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+              <div>
+                <p>GitHub</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <a
+                href="https://www.linkedin.com/in/a-i-idi-b86abb210/"
+                target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+              <div>
+                <p>Linkedin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social">
+        <a
+          href="https://cdn.britannica.com/98/64798-050-D9201EB6/Birmingham-England.jpg"
+          target="_blank"
+          ><i class="fa fa-map-marker" aria-hidden="true"></i
+        ></a>
+        <a href="https://github.com/Amalidi" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/a-i-idi-b86abb210/" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="end">CopyRight By Amal Idiris</p>
+    </footer>
+  </body>
 </html>
