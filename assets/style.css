@@ -277,9 +277,9 @@ button:hover {
   color: #fff;
 }
 
-.temp-title {
+/* .temp-title {
   font-size: 40px;
-}
+} */
 
 /* Contact Section */
 
@@ -442,6 +442,10 @@ footer {
   text-align: center;
 }
 
+.layer1 {
+  text-align: center;
+}
+
 .layer {
   background: transparent;
   height: 100%;
@@ -451,6 +455,21 @@ footer {
   left: 0;
   border-radius: 12px;
   transition: all 0.4s;
+}
+
+.layer1 {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.layer1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
 }
 .layer:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
@@ -472,10 +491,45 @@ footer {
   opacity: 1;
 }
 
+.layer1 h5 {
+  position: absolute;
+  width: 100%;
+  font-size: 55px;
+  font-weight: 500;
+  color: var(--bg-color);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 0.4s;
+}
+.layer1:hover h5 {
+  bottom: 48%;
+  opacity: 1;
+}
+
+.layer1 a {
+  position: absolute;
+  margin-bottom: 60px;
+  padding-bottom: 80px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 500;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 0.4s;
+}
+.layer1:hover a {
+  bottom: 48%;
+  opacity: 1;
+}
+
 .layer h5 {
   position: absolute;
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--bg-color);
   bottom: 0;
@@ -491,9 +545,9 @@ footer {
 
 .layer a {
   position: absolute;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   width: 100%;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 500;
   bottom: 0;
   left: 50%;
@@ -507,7 +561,8 @@ footer {
 }
 
 .button {
-  padding: 30px 30px;
+  padding: 24px 30px;
+  font-size: 27px;
   border: none;
   cursor: pointer;
   border-radius: 50px;
@@ -516,24 +571,3 @@ footer {
 button:hover {
   background-color: rgba(0, 136, 168, 0.8);
 }
-
-.s-heading {
-  /* padding-top: 10rem; */
-  /* text-align: center; */
-  /* font-size: 30px;
-  font-weight: 900;
-  color: #fff; */
-}
-
-/* .items-box {
-  font-size: 70px;
-} */
-
-/* .button {
-  padding: 10px 29px;
-  background-color: rgba(0, 136, 168, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-} */
