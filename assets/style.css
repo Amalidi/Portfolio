@@ -137,8 +137,8 @@ button:hover {
 }
 
 .main img {
-  height: 500px;
-  width: 600px;
+  /* height: 500px;
+  width: 600px; */
   opacity: 0.9;
   padding: 0px 50px;
   align-items: center;
@@ -649,13 +649,23 @@ span a:hover {
 
 @media screen and (max-width: 992px) {
   .work-box {
-    width: 440px;
-    height: 440px;
+    width: 240px;
+    height: 240px;
   }
 
   .work-box img {
-    width: 440px;
-    height: 440px;
+    width: 240px;
+    height: 240px;
+  }
+
+  .box-1 {
+    width: 240px;
+    height: 240px;
+  }
+
+  .box-1 img {
+    width: 240px;
+    height: 240px;
   }
 
   .text h1 {
@@ -675,7 +685,6 @@ span a:hover {
 
   .main img {
     width: 475px;
-    height: 300px;
   }
 }
 
@@ -697,15 +706,15 @@ span a:hover {
     text-align: center;
   }
 
-  .work-box {
+  /* .work-box {
     width: 440px;
     height: 440px;
-  }
+  } */
 
-  .work-box img {
+  /* .work-box img {
     width: 440px;
     height: 440px;
-  }
+  } */
 
   .text h1 {
     align-items: flex-start;
