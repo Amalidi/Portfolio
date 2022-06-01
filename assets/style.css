@@ -286,7 +286,7 @@ button:hover {
 #Contact {
   text-align: center;
   background-color: #24252a;
-  padding: 20px 100px;
+  padding: 20px 10px;
 }
 
 #Contact h2 {
@@ -503,7 +503,6 @@ button:hover {
   left: 0;
   right: 0;
   border-top: 5px solid #08fdd8;
-  /*   z-index: 1; */
   animation: bounce 1.5s infinite;
 }
 ::-webkit-input-placeholder {
@@ -514,7 +513,6 @@ button:hover {
   display: block;
   font-family: sans-serif;
   margin: 10px auto 5px;
-  width: 300px;
 }
 .termsConditions {
   margin: 0 auto 5px 80px;
@@ -668,7 +666,7 @@ span a:hover {
   }
 
   .main img {
-    width: 475px;
+    width: 300px;
   }
 
   .layer1 h5 {
@@ -689,6 +687,14 @@ span a:hover {
     padding: 10px 10px;
     font-size: 15px;
   }
+
+  .formEntry {
+    min-width: auto;
+  }
+
+  .form {
+    max-width: 100vh;
+  }
 }
 
 @media screen and (max-width: 596px) {
@@ -708,16 +714,6 @@ span a:hover {
   .title .sub-title {
     text-align: center;
   }
-
-  /* .work-box {
-    width: 440px;
-    height: 440px;
-  } */
-
-  /* .work-box img {
-    width: 440px;
-    height: 440px;
-  } */
 
   .text h1 {
     align-items: flex-start;
