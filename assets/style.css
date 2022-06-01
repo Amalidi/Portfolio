@@ -404,22 +404,6 @@ footer {
 .layer:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
 }
-.layer h3 {
-  position: absolute;
-  width: 100%;
-  font-size: 25px;
-  font-weight: 500;
-  color: var(--bg-color);
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: all 0.4s;
-}
-.layer:hover h3 {
-  bottom: 52%;
-  opacity: 1;
-}
 
 .layer1 h5 {
   position: absolute;
@@ -685,6 +669,25 @@ span a:hover {
 
   .main img {
     width: 475px;
+  }
+
+  .layer1 h5 {
+    font-size: 17px;
+  }
+
+  .layer h5 {
+    font-size: 15px;
+  }
+
+  .layer1 a {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .button {
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    font-size: 15px;
   }
 }
 
