@@ -695,6 +695,20 @@ span a:hover {
   .form {
     max-width: 100vh;
   }
+
+  .message:hover {
+    height: 12em;
+    width: 200px;
+  }
+
+  .email:hover {
+    height: 30px;
+    width: 200px;
+  }
+  .name:hover {
+    height: 30px;
+    width: 380px;
+  }
 }
 
 @media screen and (max-width: 596px) {
