@@ -7,12 +7,6 @@
 
 :root {
   --bg-color: #ffffff;
-  /* --text-color: #000;
-  --secound-color: #a09dab;
-  --main-color: #f75023;
-  --big-font: 5rem;
-  --h2-font: 3rem;
-  --p-font: 1.1rem; */
 }
 
 /* NAVBAR */
@@ -26,8 +20,6 @@ button {
   text-decoration: none;
 }
 
-/* places the nav links in the centre */
-
 nav {
   background-color: #161a1d;
   display: flex;
@@ -40,13 +32,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* removes the bullet points */
-
 .nav-links {
   list-style: none;
 }
-
-/* this makes the links be side by side  */
 
 .nav-links li {
   position: sticky;
@@ -66,8 +54,6 @@ li,
 a:hover {
   color: #0088a9;
 }
-
-/* Targetting the button and using an rgba to drop the opacity*/
 
 button {
   padding: 10px 29px;
@@ -608,36 +594,6 @@ footer {
   .topcard {
     width: 280px;
     height: 280px;
-  }
-
-  .work-box {
-    width: 240px;
-    height: 240px;
-  }
-
-  .work-box img {
-    width: 240px;
-    height: 240px;
-  }
-
-  .box-1 {
-    width: 240px;
-    height: 240px;
-  }
-
-  .box-1 img {
-    width: 240px;
-    height: 240px;
-  }
-
-  .text h1 {
-    align-items: flex-start;
-    text-align: center;
-  }
-
-  .text p {
-    font-size: 14px;
-    text-align: center;
   }
 
   .main {
