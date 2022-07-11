@@ -326,7 +326,7 @@ button:hover {
   flex-wrap: wrap;
 }
 
-/* Contact Section */
+/* Contact Section starts */
 
 #Contact {
   text-align: center;
@@ -355,29 +355,113 @@ h2 {
   font-size: 40px;
 }
 
-.info-container {
-  background-color: #48cae4;
+.form {
+  background: #343a40;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 5px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  border-top: 5px solid #08fdd8;
+  animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.4em;
 }
 
-.box {
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+}
+.termsConditions {
+  margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.name:hover {
+  border-bottom: 5px solid #08fdd8;
+}
+
+.email:hover {
+  border-bottom: 5px solid #08fdd8;
+}
+
+.message {
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #08fdd8;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
   border-radius: 2px;
-  margin-bottom: 20px;
-  padding: 20px;
+  border: none;
+  transition: all 0.5s ease 0s;
 }
 
-.box4 {
-  margin-bottom: 20px;
-  padding: 20px;
+.span1 {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 10px;
+  perspective: 1000px;
+}
+span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+span a:before,
+span a:after {
+  position: absolute;
+  content: "Send message!";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before {
+  color: #08fdd8;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after {
+  color: #000;
+  background: #08fdd8;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
 }
 
-.box5 {
-  margin-bottom: 20px;
-  padding: 20px;
+.wrapper {
+  padding-bottom: 80px;
 }
+
+/* Contact Section ends */
 
 /* Footer section  */
 
@@ -535,134 +619,132 @@ button:hover {
   font-size: 20px;
 }
 
-/* form animation starts */
-.form {
-  background: #343a40;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-  border-radius: 5px;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  left: 0;
-  right: 0;
-  border-top: 5px solid #08fdd8;
-  animation: bounce 1.5s infinite;
-}
-::-webkit-input-placeholder {
-  font-size: 1.3em;
-}
-
-.title {
-  display: block;
-  font-family: sans-serif;
-  margin: 10px auto 5px;
-}
-.termsConditions {
-  margin: 0 auto 5px 80px;
-}
-
-.pageTitle {
-  text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-}
-.secondaryTitle {
-  color: grey;
-}
-
-.name {
-  background-color: #ebebeb;
-  color: black;
-}
-.name:hover {
-  border-bottom: 5px solid #08fdd8;
-  height: 30px;
-  width: 380px;
-  transition: ease 0.5s;
-}
-
-.email {
-  background-color: #ebebeb;
-  height: 2em;
-}
-
-.email:hover {
-  border-bottom: 5px solid #08fdd8;
-  height: 30px;
-  width: 380px;
-  transition: ease 0.5s;
-}
-
-.message {
-  background-color: #ebebeb;
+/* random */
+.card {
+  width: 420px;
+  height: 420px;
+  border-radius: 25px;
   overflow: hidden;
-  height: 10rem;
-}
-
-.message:hover {
-  border-bottom: 5px solid #08fdd8;
-  height: 12em;
-  width: 380px;
-  transition: ease 0.5s;
-}
-
-.formEntry {
-  display: block;
-  margin: 30px auto;
-  min-width: 300px;
-  padding: 10px;
-  border-radius: 2px;
-  border: none;
-  transition: all 0.5s ease 0s;
-}
-
-.span1 {
+  border: 8px solid #fff;
   position: relative;
-  display: inline-flex;
-  width: 180px;
-  height: 55px;
-  margin: 0 10px;
-  perspective: 1000px;
-}
-span a {
-  font-size: 19px;
-  letter-spacing: 1px;
-  transform-style: preserve-3d;
-  transform: translateZ(-25px);
-  transition: transform 0.25s;
-  font-family: "Montserrat", sans-serif;
-}
-span a:before,
-span a:after {
-  position: absolute;
-  content: "Send message!";
-  height: 55px;
-  width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid black;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-span a:before {
-  color: #08fdd8;
-  background: #000;
-  transform: rotateY(0deg) translateZ(25px);
-}
-span a:after {
-  color: #000;
-  background: #08fdd8;
-  transform: rotateX(90deg) translateZ(25px);
-}
-span a:hover {
-  transform: translateZ(-25px) rotateX(-90deg);
+  margin: 20px 20px 20px;
 }
 
-.wrapper {
-  padding-bottom: 80px;
+.topcard {
+  width: 1000px;
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+  margin: 20px 20px 20px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  /* width: 350px;
+  height: 450px;
+  object-fit: cover; */
+  border-radius: 15px;
+}
+
+.card-img2 {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  /* width: 350px;
+  height: 450px;
+  object-fit: cover; */
+  border-radius: 15px;
+}
+
+.card-body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body {
+  right: 0;
+}
+
+.topcard:hover .card-body {
+  right: 0;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.card-title2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.card-sub-title {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.card-info2 {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.card-btn {
+  color: #fff;
+  background: #0088a9;
+  padding: 10px 20px;
+  width: 90px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btnforcard {
+  display: flex;
+  justify-content: center;
+}
+
+.card-btn {
+  /* display: flex;
+  justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  background: #48cae4;
+  margin: 8px;
 }
 
 @keyframes bounce {
@@ -675,6 +757,16 @@ span a:hover {
 }
 
 @media screen and (max-width: 992px) {
+  .card {
+    width: 280px;
+    height: 280px;
+  }
+
+  .topcard {
+    width: 280px;
+    height: 280px;
+  }
+
   .work-box {
     width: 240px;
     height: 240px;
